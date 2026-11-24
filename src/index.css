@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Lora", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-forest-950: #11261b;
+  --color-forest-900: #1b3b2b;
+  --color-forest-800: #254d39;
+  --color-forest-100: #e7efe9;
+  --color-cream-50: #faf7f2;
+  --color-cream-100: #f3ede2;
+  --color-cream-200: #e5dccb;
+  --color-cashew-600: #8a5a32;
+  --color-cashew-700: #6e4524;
+  --color-gold-500: #b8934a;
+  --color-gold-300: #d6bc82;
+  --color-ink-900: #19201c;
+  --color-ink-700: #38413c;
+  --color-ink-500: #5c6660;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: var(--color-cream-50);
+    color: var(--color-ink-900);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-editorial {
+    font-family: var(--font-serif);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-gold-500);
+    outline-offset: 2px;
+  }
+}
+
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 8px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.page-enter {
+  animation: pageEnter 340ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.reveal-base {
+  opacity: 0;
+  transform: translate3d(0, 14px, 0);
+  transition:
+    opacity 580ms cubic-bezier(0.22, 1, 0.36, 1),
+    transform 580ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-base.reveal-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .page-enter {
+    animation: none;
+  }
+  .reveal-base {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

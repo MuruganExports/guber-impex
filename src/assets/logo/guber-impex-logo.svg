@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" fill="none">
+  <rect x="2" y="6" width="52" height="52" rx="12" fill="#1B3B2B" />
+  <path
+    d="M31.8 17C23.1 17 16.5 23.9 16.5 32.2C16.5 39.3 21.4 45 28 45C32.1 45 34.9 42.9 34.9 40C34.9 37.3 32.5 36.2 30.2 35.5C27.7 34.7 26 33.4 26 30.7C26 27.4 28.8 25.2 32.4 25.2C36 25.2 38.7 27.1 40 24.7C41.2 22.4 37.8 17 31.8 17Z"
+    fill="#FAF7F2"
+  />
+  <path
+    d="M31 21.5C26.4 21.5 22.8 25.2 22.8 29.8"
+    stroke="#B8934A"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+  <text
+    x="68"
+    y="34"
+    fill="#19201C"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="21"
+    font-weight="600"
+    letter-spacing="1.6"
+  >
+    GUBER IMPEX
+  </text>
+  <text
+    x="69"
+    y="49"
+    fill="#8A5A32"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="9.5"
+    font-weight="600"
+    letter-spacing="2.4"
+  >
+    CASHEW WHOLESALE
+  </text>
+</svg>
