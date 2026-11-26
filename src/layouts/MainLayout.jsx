@@ -4,11 +4,22 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 export default function MainLayout() {
-  const { pathname } = useLocation();
+  const { pathname, hash } = useLocation();
 
   useEffect(() => {
+    if (hash) {
+      const targetId = hash.slice(1);
+      const timer = window.setTimeout(() => {
+        const element = document.getElementById(targetId);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 60);
+      return () => window.clearTimeout(timer);
+    }
+
     window.scrollTo({ top: 0, behavior: 'auto' });
-  }, [pathname]);
+  }, [pathname, hash]);
 
   return (
     <div className="flex min-h-screen flex-col bg-[#FAF7F2] text-[#19201C]">

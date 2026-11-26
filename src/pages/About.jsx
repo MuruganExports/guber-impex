@@ -34,6 +34,10 @@ export default function About() {
       <PageMeta
         title="About Us"
         description="Learn about GUBER IMPEX, a cashew nut wholesale supplier in Tamil Nadu, India focused on grade-specific cashew kernels for domestic and international markets."
+        keywords="about GUBER IMPEX, Tamil Nadu cashew wholesale supplier, Indian cashew kernels supplier, domestic and international cashew trade"
+        canonicalPath="/about"
+        image="/images/wholesale-supply.jpg"
+        imageAlt="Sorted raw white cashew kernels ready for wholesale inspection at GUBER IMPEX"
       />
 
       {/* Page Header */}

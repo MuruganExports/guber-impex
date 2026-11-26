@@ -39,6 +39,10 @@ export default function Home() {
       <PageMeta
         title="Quality Cashew Kernels for Wholesale Markets"
         description="GUBER IMPEX is a cashew nut wholesale supplier in Tamil Nadu, India supplying W240, W320, W440, and Cashew Splits (1/2) for domestic and international wholesale buyers."
+        keywords="GUBER IMPEX, cashew nut wholesale, cashew kernels supplier Tamil Nadu, W240 cashew kernels, W320 cashew kernels, W440 cashew kernels, cashew splits 1/2, bulk cashew nuts India"
+        canonicalPath="/"
+        image="/images/hero-cashews.jpg"
+        imageAlt="Raw whole ivory-white cashew kernels in a wooden bowl on woven natural jute"
       />
 
       {/* Hero Section */}

@@ -12,6 +12,10 @@ export default function Products() {
       <PageMeta
         title="Cashew Products & Wholesale Grades"
         description="Explore wholesale cashew kernel grades from GUBER IMPEX: W240 Cashew Kernels, W320 Cashew Kernels, W440 Cashew Kernels, and Cashew Splits (1/2)."
+        keywords="W240 cashew kernels, W320 cashew kernels, W440 cashew kernels, cashew splits 1/2, wholesale cashew grades India, bulk white whole cashew kernels"
+        canonicalPath="/products"
+        image="/images/product-w240.jpg"
+        imageAlt="W240 grade raw white whole cashew kernels supplied by GUBER IMPEX"
       />
 
       {/* Page Header */}

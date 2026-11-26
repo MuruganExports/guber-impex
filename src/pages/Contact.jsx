@@ -117,6 +117,10 @@ export default function Contact() {
       <PageMeta
         title="Contact Us & Wholesale Enquiry"
         description="Contact GUBER IMPEX in Tamil Nadu, India for wholesale cashew kernel enquiries. Call +91 90473 08121 or email muruganexports16@gmail.com."
+        keywords="contact GUBER IMPEX, cashew wholesale enquiry India, buy bulk cashews Tamil Nadu, cashew kernel supplier phone email"
+        canonicalPath="/contact"
+        image="/images/hero-cashews.jpg"
+        imageAlt="GUBER IMPEX wholesale cashew kernel enquiries"
       />
 
       {/* Page Header */}

@@ -19,6 +19,10 @@ export default function HealthBenefits() {
       <PageMeta
         title="Health Benefits of Cashew Kernels"
         description="Explore the nutritional profile of natural cashew kernels including plant-based protein, healthy unsaturated fats, essential minerals, antioxidants, and balanced consumption."
+        keywords="cashew nutritional value, cashew health benefits, cashew protein content, unsaturated fats in cashews, cashew dietary minerals, cashew antioxidants"
+        canonicalPath="/health-benefits"
+        image="/images/health-nutrition.jpg"
+        imageAlt="Raw whole white cashew kernels served in a clean ceramic dish"
       />
 
       {/* Page Header */}
